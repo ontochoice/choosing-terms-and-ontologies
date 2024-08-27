@@ -1,0 +1,422 @@
+.ontochoice {
+  width: 345px;
+  position: relative;
+  font-weight: 900;
+  display: inline-block;
+  max-width: 100%;
+}
+.choosing-terms-and {
+  margin: 0;
+}
+.choosing-terms-and-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 105px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.layout {
+  width: 668px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 71px;
+  min-width: 668px;
+  max-width: 100%;
+}
+.back-image-icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 142px;
+  max-height: 100%;
+  width: 688px;
+  object-fit: cover;
+}
+.network-graphic-1-icon {
+  position: absolute;
+  top: 76px;
+  left: 0;
+  width: 724px;
+  height: 452px;
+  object-fit: cover;
+  z-index: 1;
+}
+.back-image-parent {
+  align-self: stretch;
+  height: 603px;
+  position: relative;
+}
+.frame-wrapper,
+.layout-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 6px 0 0;
+  box-sizing: border-box;
+  min-width: 539px;
+}
+.layout-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 51px;
+  flex-shrink: 0;
+}
+.innovation-thats-consistent {
+  width: 823px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 118%;
+}
+.consistent-innovation,
+.structure {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.consistent-innovation {
+  width: 727px;
+  border: 4px solid var(--color-yellowgreen);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 9px 0 15px 16px;
+  min-height: 97px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.structure {
+  width: 1549px;
+  flex-direction: column;
+  padding: 0 0 152px;
+  gap: 12px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.here-is-some-container {
+  margin: 0;
+  width: 1280px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.icbo-poster-vertical-portrait {
+  width: 1280px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.icbo-poster-vertical-portrait-wrapper,
+.poster {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.icbo-poster-vertical-portrait-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.poster {
+  width: 1468px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 73px;
+  text-align: left;
+  font-size: 90px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.macbook-pro-16-1-child {
+  width: 99px;
+  height: 94px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.innovate-with-us,
+.start-already {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.innovate-with-us {
+  margin: 0;
+  align-self: stretch;
+  height: 200.7px;
+  font-size: inherit;
+  font-family: inherit;
+}
+.start-already {
+  width: 328px;
+  max-width: 100%;
+}
+.innovation-action,
+.start-already-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.start-already-wrapper {
+  flex: 1;
+  border: 4px solid var(--color-yellowgreen);
+  overflow: hidden;
+  padding: 23px 21px 22px var(--padding-6xl);
+  min-height: 118px;
+  flex-shrink: 0;
+}
+.innovation-action {
+  width: 378px;
+  height: 151.6px;
+  padding: 0 0 37.6px;
+  font-size: var(--font-size-29xl);
+}
+.contact,
+.john-graybeal {
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+}
+.contact {
+  width: 278px;
+  height: 66px;
+  flex-shrink: 0;
+}
+.john-graybeal {
+  width: 346px;
+  max-width: 100%;
+}
+.jbgraybealsonicnet {
+  position: relative;
+  font-weight: 200;
+  white-space: nowrap;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+  max-width: 100%;
+}
+.connect {
+  flex-direction: column;
+  gap: 8px;
+}
+.connect,
+.connect-wrapper,
+.innovate-with-us-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.connect-wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-6xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-31xl);
+  color: var(--color-silver);
+}
+.innovate-with-us-parent {
+  width: 585px;
+  flex-direction: column;
+  gap: 192.4px;
+  min-width: 585px;
+}
+.people-8027909-1-icon {
+  align-self: stretch;
+  height: 946px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame-parent,
+.showcase {
+  flex: 1;
+  display: flex;
+  max-width: 100%;
+}
+.showcase {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 12px;
+  box-sizing: border-box;
+  min-width: 579px;
+}
+.frame-parent {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.call-to-action,
+.macbook-pro-16-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.call-to-action {
+  width: 1498px;
+  flex-direction: row;
+  padding: 0 11px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 93px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.macbook-pro-16-1 {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 146px 73px 166px;
+  gap: 168px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .layout {
+    flex: 1;
+  }
+  .layout-parent {
+    flex-wrap: wrap;
+  }
+  .innovate-with-us-parent {
+    flex: 1;
+  }
+  .frame-parent {
+    flex-wrap: wrap;
+  }
+  .macbook-pro-16-1 {
+    gap: 84px;
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .layout {
+    min-width: 100%;
+  }
+  .structure {
+    padding-bottom: 99px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ontochoice {
+    font-size: var(--font-size-19xl);
+  }
+  .choosing-terms-and-container {
+    font-size: 52px;
+  }
+  .layout {
+    gap: 35px;
+  }
+  .frame-wrapper {
+    min-width: 100%;
+  }
+  .layout-parent {
+    gap: 25px;
+  }
+  .innovation-thats-consistent {
+    font-size: var(--font-size-19xl);
+  }
+  .here-is-some-container {
+    font-size: 45px;
+  }
+  .poster {
+    gap: 36px;
+  }
+  .innovate-with-us {
+    font-size: 46px;
+  }
+  .start-already {
+    font-size: var(--font-size-19xl);
+  }
+  .contact,
+  .jbgraybealsonicnet,
+  .john-graybeal {
+    font-size: var(--font-size-21xl);
+  }
+  .innovate-with-us-parent {
+    gap: 96px;
+    min-width: 100%;
+  }
+  .showcase {
+    min-width: 100%;
+  }
+  .macbook-pro-16-1 {
+    gap: 42px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ontochoice {
+    font-size: var(--font-size-10xl);
+  }
+  .choosing-terms-and-container {
+    font-size: 31px;
+  }
+  .layout {
+    gap: var(--gap-lg);
+  }
+  .innovation-thats-consistent {
+    font-size: var(--font-size-10xl);
+  }
+  .structure {
+    padding-bottom: 64px;
+    box-sizing: border-box;
+  }
+  .here-is-some-container {
+    font-size: 27px;
+  }
+  .poster {
+    gap: var(--gap-lg);
+  }
+  .innovate-with-us {
+    font-size: 28px;
+  }
+  .start-already {
+    font-size: var(--font-size-10xl);
+  }
+  .contact,
+  .jbgraybealsonicnet,
+  .john-graybeal {
+    font-size: var(--font-size-11xl);
+  }
+  .innovate-with-us-parent {
+    gap: 48px;
+  }
+  .macbook-pro-16-1 {
+    gap: 21px;
+  }
+}
