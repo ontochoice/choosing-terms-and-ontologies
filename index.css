@@ -1,7 +1,10 @@
 .ontochoice {
+  margin: 0;
   width: 345px;
   position: relative;
+  font-size: inherit;
   font-weight: 900;
+  font-family: inherit;
   display: inline-block;
   max-width: 100%;
 }
@@ -50,36 +53,39 @@
   height: 603px;
   position: relative;
 }
-.frame-wrapper,
-.layout-parent {
+.layout-parent,
+.showcase {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.frame-wrapper {
+.showcase {
   flex: 1;
   flex-direction: column;
-  padding: 6px 0 0;
+  padding: var(--padding-7xs) 0 0;
   box-sizing: border-box;
   min-width: 539px;
 }
 .layout-parent {
   align-self: stretch;
   flex-direction: row;
-  gap: 51px;
+  gap: var(--gap-32xl);
   flex-shrink: 0;
 }
 .innovation-thats-consistent {
+  margin: 0;
   width: 823px;
   position: relative;
+  font-size: inherit;
   font-weight: 500;
+  font-family: inherit;
   display: inline-block;
   flex-shrink: 0;
   max-width: 118%;
 }
 .consistent-innovation,
-.structure {
+.frame-parent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -91,12 +97,12 @@
   border: 4px solid var(--color-yellowgreen);
   overflow: hidden;
   flex-direction: row;
-  padding: 9px 0 15px 16px;
+  padding: 9px 0 var(--padding-base) var(--padding-base);
   min-height: 97px;
   flex-shrink: 0;
   z-index: 1;
 }
-.structure {
+.frame-parent {
   width: 1549px;
   flex-direction: column;
   padding: 0 0 152px;
@@ -123,22 +129,22 @@
   object-fit: cover;
   max-width: 100%;
 }
-.icbo-poster-vertical-portrait-wrapper,
-.poster {
+.call-to-action {
+  align-self: stretch;
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
+  justify-content: flex-end;
   max-width: 100%;
 }
-.icbo-poster-vertical-portrait-wrapper {
-  align-self: stretch;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.poster {
+.here-is-some-of-our-work-post-parent {
   width: 1468px;
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
-  gap: 73px;
+  gap: 74px;
+  max-width: 100%;
   text-align: left;
   font-size: 90px;
   color: var(--color-white);
@@ -152,137 +158,190 @@
   flex-shrink: 0;
   display: none;
 }
-.innovate-with-us,
-.start-already {
-  position: relative;
-  font-weight: 500;
-  display: inline-block;
-  flex-shrink: 0;
-}
 .innovate-with-us {
   margin: 0;
-  align-self: stretch;
-  height: 200.7px;
+  height: 201.2px;
+  flex: 1;
+  position: relative;
   font-size: inherit;
+  font-weight: 500;
   font-family: inherit;
-}
-.start-already {
-  width: 328px;
+  display: inline-block;
   max-width: 100%;
 }
-.innovation-action,
-.start-already-wrapper {
+.innovate-with-us-wrapper {
+  align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  padding: 0 0 89.2px;
   box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.start-already {
+  margin: 0;
+  width: 328px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
   max-width: 100%;
 }
 .start-already-wrapper {
-  flex: 1;
+  width: 382px;
   border: 4px solid var(--color-yellowgreen);
+  box-sizing: border-box;
   overflow: hidden;
-  padding: 23px 21px 22px var(--padding-6xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) 21px var(--padding-4xl) 25px;
   min-height: 118px;
+  max-width: 100%;
   flex-shrink: 0;
-}
-.innovation-action {
-  width: 378px;
-  height: 151.6px;
-  padding: 0 0 37.6px;
   font-size: var(--font-size-29xl);
 }
-.contact,
-.john-graybeal {
+.team-members {
+  flex: 1;
   position: relative;
   font-weight: 200;
   display: inline-block;
-}
-.contact {
-  width: 278px;
-  height: 66px;
-  flex-shrink: 0;
-}
-.john-graybeal {
-  width: 346px;
   max-width: 100%;
 }
-.jbgraybealsonicnet {
-  position: relative;
-  font-weight: 200;
-  white-space: nowrap;
-}
-.contact-info {
+.team-members-wrapper {
+  align-self: stretch;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 13px;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.annamaria {
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  min-width: 123px;
+}
+.anna-maria {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 4px;
+}
+.aryan-singh-dalal {
+  position: relative;
+  font-weight: 200;
+}
+.hande-mcginty-parent,
+.member-names2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.member-names2 {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+}
+.hande-mcginty-parent {
+  flex-direction: column;
+  gap: 4px;
+}
+.ruth-duerr {
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  min-width: 125px;
+}
+.hande-eric {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.connect,
+.contact-info,
+.hande-eric {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contact-info {
+  width: 348px;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
   max-width: 100%;
 }
 .connect {
-  flex-direction: column;
-  gap: 8px;
+  flex: 1;
+  gap: 34px;
 }
 .connect,
-.connect-wrapper,
-.innovate-with-us-parent {
+.frame-container,
+.frame-wrapper,
+.team-container {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
   max-width: 100%;
 }
-.connect-wrapper {
+.team-container {
+  width: 416px;
   flex-direction: row;
-  padding: 0 var(--padding-6xl);
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl);
   box-sizing: border-box;
-  font-size: var(--font-size-31xl);
+  flex-shrink: 0;
+  font-size: var(--font-size-6xl);
   color: var(--color-silver);
 }
-.innovate-with-us-parent {
-  width: 585px;
+.frame-container,
+.frame-wrapper {
   flex-direction: column;
-  gap: 192.4px;
+}
+.frame-container {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 103px;
+}
+.frame-wrapper {
+  width: 585px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
   min-width: 585px;
 }
 .people-8027909-1-icon {
-  align-self: stretch;
   height: 946px;
+  flex: 1;
   position: relative;
   max-width: 100%;
   overflow: hidden;
-  flex-shrink: 0;
   object-fit: cover;
-}
-.frame-parent,
-.showcase {
-  flex: 1;
-  display: flex;
-  max-width: 100%;
-}
-.showcase {
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 0 12px;
-  box-sizing: border-box;
   min-width: 579px;
 }
-.frame-parent {
+.frame-group {
+  flex: 1;
+  display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
   row-gap: 20px;
+  max-width: 100%;
 }
-.call-to-action,
-.macbook-pro-16-1 {
+.macbook-pro-16-1,
+.macbook-pro-16-1-inner {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.call-to-action {
+.macbook-pro-16-1-inner {
   width: 1498px;
   flex-direction: row;
   padding: 0 11px;
@@ -298,7 +357,7 @@
   background-color: #000;
   overflow: hidden;
   flex-direction: column;
-  padding: 146px 73px 166px;
+  padding: 146px 73px 178px;
   gap: 168px;
   line-height: normal;
   letter-spacing: normal;
@@ -310,10 +369,10 @@
   .layout-parent {
     flex-wrap: wrap;
   }
-  .innovate-with-us-parent {
+  .frame-wrapper {
     flex: 1;
   }
-  .frame-parent {
+  .frame-group {
     flex-wrap: wrap;
   }
   .macbook-pro-16-1 {
@@ -327,7 +386,7 @@
   .layout {
     min-width: 100%;
   }
-  .structure {
+  .frame-parent {
     padding-bottom: 99px;
     box-sizing: border-box;
   }
@@ -342,7 +401,7 @@
   .layout {
     gap: 35px;
   }
-  .frame-wrapper {
+  .showcase {
     min-width: 100%;
   }
   .layout-parent {
@@ -354,8 +413,8 @@
   .here-is-some-container {
     font-size: 45px;
   }
-  .poster {
-    gap: 36px;
+  .here-is-some-of-our-work-post-parent {
+    gap: 37px;
   }
   .innovate-with-us {
     font-size: 46px;
@@ -363,16 +422,11 @@
   .start-already {
     font-size: var(--font-size-19xl);
   }
-  .contact,
-  .jbgraybealsonicnet,
-  .john-graybeal {
-    font-size: var(--font-size-21xl);
+  .frame-container {
+    gap: var(--gap-32xl);
   }
-  .innovate-with-us-parent {
-    gap: 96px;
-    min-width: 100%;
-  }
-  .showcase {
+  .frame-wrapper,
+  .people-8027909-1-icon {
     min-width: 100%;
   }
   .macbook-pro-16-1 {
@@ -392,14 +446,14 @@
   .innovation-thats-consistent {
     font-size: var(--font-size-10xl);
   }
-  .structure {
+  .frame-parent {
     padding-bottom: 64px;
     box-sizing: border-box;
   }
   .here-is-some-container {
     font-size: 27px;
   }
-  .poster {
+  .here-is-some-of-our-work-post-parent {
     gap: var(--gap-lg);
   }
   .innovate-with-us {
@@ -408,13 +462,17 @@
   .start-already {
     font-size: var(--font-size-10xl);
   }
-  .contact,
-  .jbgraybealsonicnet,
-  .john-graybeal {
-    font-size: var(--font-size-11xl);
+  .annamaria,
+  .aryan-singh-dalal,
+  .ruth-duerr,
+  .team-members {
+    font-size: var(--font-size-xl);
   }
-  .innovate-with-us-parent {
-    gap: 48px;
+  .connect {
+    gap: 17px;
+  }
+  .frame-container {
+    gap: 26px;
   }
   .macbook-pro-16-1 {
     gap: 21px;
