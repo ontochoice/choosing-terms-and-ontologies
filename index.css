@@ -19,7 +19,7 @@
   font-weight: 500;
   font-family: inherit;
 }
-.layout {
+.ontochoice-parent {
   width: 668px;
   display: flex;
   flex-direction: column;
@@ -48,29 +48,29 @@
   object-fit: cover;
   z-index: 1;
 }
-.back-image-parent {
+.image-content {
   align-self: stretch;
   height: 603px;
   position: relative;
 }
-.layout-parent,
-.showcase {
+.frame-container,
+.image-content-wrapper {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.showcase {
+.image-content-wrapper {
   flex: 1;
   flex-direction: column;
-  padding: var(--padding-7xs) 0 0;
+  padding: 6px 0 0;
   box-sizing: border-box;
   min-width: 539px;
 }
-.layout-parent {
+.frame-container {
   align-self: stretch;
   flex-direction: row;
-  gap: var(--gap-32xl);
+  gap: 51px;
   flex-shrink: 0;
 }
 .innovation-thats-consistent {
@@ -85,70 +85,110 @@
   max-width: 118%;
 }
 .consistent-innovation,
-.frame-parent {
+.frame-group {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  box-sizing: border-box;
   max-width: 100%;
 }
 .consistent-innovation {
   width: 727px;
   border: 4px solid var(--color-yellowgreen);
+  box-sizing: border-box;
   overflow: hidden;
   flex-direction: row;
-  padding: 9px 0 var(--padding-base) var(--padding-base);
+  padding: var(--padding-4xs) 0 15px 16px;
   min-height: 97px;
   flex-shrink: 0;
   z-index: 1;
 }
-.frame-parent {
-  width: 1549px;
+.frame-group {
+  align-self: stretch;
   flex-direction: column;
-  padding: 0 0 152px;
   gap: 12px;
-  text-align: left;
-  font-size: var(--font-size-29xl);
-  color: var(--color-white);
-  font-family: var(--font-inter);
 }
-.here-is-some-container {
+.here-is-some-container,
+.here-is-some-container1 {
   margin: 0;
-  width: 1280px;
+  align-self: stretch;
+  height: 206px;
   position: relative;
   font-size: inherit;
   font-weight: 500;
   font-family: inherit;
   display: inline-block;
-  max-width: 100%;
+  flex-shrink: 0;
 }
-.icbo-poster-vertical-portrait {
+.here-is-some-container1 {
+  z-index: 1;
+  margin: -206px 0 0;
+}
+.work-poster {
   width: 1280px;
-  position: relative;
-  max-height: 100%;
-  object-fit: cover;
-  max-width: 100%;
-}
-.call-to-action {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
-  max-width: 100%;
-}
-.here-is-some-of-our-work-post-parent {
-  width: 1468px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 74px;
   max-width: 100%;
-  text-align: left;
-  font-size: 90px;
-  color: var(--color-white);
+  font-size: var(--font-size-71xl);
+}
+.esip-icon {
+  position: absolute;
+  top: 1388px;
+  left: 0;
+  width: 1588px;
+  height: 2747px;
+  object-fit: cover;
+}
+.icbo-poster-vertical-portrait,
+.people-8027909-1-icon {
+  position: absolute;
+  top: 3911px;
+  left: 599px;
+  width: 891px;
+  height: 910px;
+  object-fit: cover;
+  z-index: 1;
+}
+.icbo-poster-vertical-portrait {
+  top: 0;
+  left: 191px;
+  width: 1280px;
+  height: 1783px;
+}
+.poster-images {
+  width: 1588px;
+  height: 4821px;
+  position: absolute;
+  margin: 0 !important;
+  right: -36px;
+  bottom: -4513px;
+}
+.frame-parent,
+.poster-from-esip {
+  position: relative;
   font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  max-width: 100%;
+}
+.frame-parent {
+  width: 1549px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 393px;
+  box-sizing: border-box;
+  gap: 320px;
+  font-size: var(--font-size-29xl);
+}
+.poster-from-esip {
+  width: 1280px;
+  font-size: var(--font-size-71xl);
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
 }
 .macbook-pro-16-1-child {
   width: 99px;
@@ -158,52 +198,79 @@
   flex-shrink: 0;
   display: none;
 }
+.innovate-with-us,
+.join-us {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
 .innovate-with-us {
-  margin: 0;
-  height: 201.2px;
-  flex: 1;
-  position: relative;
-  font-size: inherit;
-  font-weight: 500;
-  font-family: inherit;
-  display: inline-block;
-  max-width: 100%;
-}
-.innovate-with-us-wrapper {
   align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 0 89.2px;
-  box-sizing: border-box;
-  max-width: 100%;
-  flex-shrink: 0;
+  height: 168px;
+  z-index: 1;
 }
-.start-already {
-  margin: 0;
-  width: 328px;
-  position: relative;
-  font-size: inherit;
-  font-weight: 500;
-  font-family: inherit;
-  display: inline-block;
-  flex-shrink: 0;
-  max-width: 100%;
+.join-us {
+  width: 186px;
 }
-.start-already-wrapper {
-  width: 382px;
+.join-us-wrapper {
+  align-self: stretch;
+  height: 110px;
   border: 4px solid var(--color-yellowgreen);
   box-sizing: border-box;
   overflow: hidden;
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-4xl) 21px var(--padding-4xl) 25px;
-  min-height: 118px;
-  max-width: 100%;
-  flex-shrink: 0;
+  padding: 28px var(--padding-2xs) var(--padding-lgi) 25px;
+}
+.github {
+  text-decoration: underline;
+  color: inherit;
+}
+.github,
+.slack {
+  flex: 1;
+  position: relative;
+}
+.platform-list {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.platforms {
+  width: 214px;
+  flex-direction: row;
+  padding: 0 var(--padding-lgi);
+  box-sizing: border-box;
+  font-size: var(--font-size-6xl);
+  color: var(--color-silver);
+  font-family: var(--font-itim);
+}
+.join-container,
+.join-team,
+.platforms {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.join-container {
+  height: 154px;
+  width: 226px;
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.join-team {
+  flex-direction: row;
+  padding: 0 var(--padding-4xs) var(--padding-lgi);
   font-size: var(--font-size-29xl);
 }
 .team-members {
@@ -213,7 +280,7 @@
   display: inline-block;
   max-width: 100%;
 }
-.team-members-wrapper {
+.team-header {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -223,36 +290,36 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.annamaria {
-  position: relative;
-  font-weight: 200;
+.john-graybeal {
+  flex: 1;
+  text-decoration: underline;
+  color: inherit;
   display: inline-block;
-  min-width: 123px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  max-width: 100%;
 }
-.anna-maria {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-11xs) 4px;
-}
-.aryan-singh-dalal {
+.annamaria-masci,
+.john-graybeal {
   position: relative;
   font-weight: 200;
 }
-.hande-mcginty-parent,
-.member-names2 {
+.anna-maria,
+.aryan,
+.aryan-parent {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  padding: 0 var(--padding-11xs) var(--padding-9xs);
 }
-.member-names2 {
-  flex-direction: row;
-  padding: 0 var(--padding-11xs);
+.aryan,
+.aryan-parent {
+  padding: 0 0 0 var(--padding-11xs);
 }
-.hande-mcginty-parent {
+.aryan-parent {
   flex-direction: column;
-  gap: 4px;
+  padding: 0 0 var(--padding-9xs);
+  gap: 5px;
 }
 .ruth-duerr {
   position: relative;
@@ -260,96 +327,61 @@
   display: inline-block;
   min-width: 125px;
 }
-.hande-eric {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
+.juliane-m-schneider {
+  position: relative;
+  font-weight: 200;
+  z-index: 1;
 }
-.connect,
-.contact-info,
-.hande-eric {
+.member-list,
+.ruth-duerr-parent {
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
 }
-.contact-info {
+.member-list {
   width: 348px;
-  display: flex;
-  align-items: flex-start;
-  gap: 6px;
+  gap: var(--gap-7xs);
   max-width: 100%;
 }
-.connect {
+.team-container {
   flex: 1;
+  flex-direction: column;
   gap: 34px;
 }
-.connect,
-.frame-container,
-.frame-wrapper,
-.team-container {
+.innovate-content,
+.team-container,
+.team-container-wrapper {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
   max-width: 100%;
 }
-.team-container {
+.team-container-wrapper {
   width: 416px;
   flex-direction: row;
-  justify-content: flex-start;
-  padding: 0 var(--padding-4xl);
+  padding: 0 23px;
   box-sizing: border-box;
-  flex-shrink: 0;
   font-size: var(--font-size-6xl);
   color: var(--color-silver);
 }
-.frame-container,
-.frame-wrapper {
+.innovate-content {
+  flex: 1;
   flex-direction: column;
+  gap: 191px;
 }
-.frame-container {
-  align-self: stretch;
-  justify-content: flex-start;
-  gap: 103px;
-}
-.frame-wrapper {
-  width: 585px;
-  justify-content: flex-end;
-  padding: 0 0 var(--padding-7xs);
-  box-sizing: border-box;
-  min-width: 585px;
-}
-.people-8027909-1-icon {
-  height: 946px;
-  flex: 1;
-  position: relative;
-  max-width: 100%;
-  overflow: hidden;
-  object-fit: cover;
-  min-width: 579px;
-}
-.frame-group {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-  row-gap: 20px;
-  max-width: 100%;
-}
-.macbook-pro-16-1,
-.macbook-pro-16-1-inner {
+.innovate-content-wrapper,
+.macbook-pro-16-1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.macbook-pro-16-1-inner {
-  width: 1498px;
+.innovate-content-wrapper {
+  width: 607px;
   flex-direction: row;
-  padding: 0 11px;
+  padding: 0 var(--padding-2xs);
   max-width: 100%;
-  text-align: left;
-  font-size: 93px;
-  color: var(--color-white);
-  font-family: var(--font-inter);
 }
 .macbook-pro-16-1 {
   width: 100%;
@@ -357,37 +389,40 @@
   background-color: #000;
   overflow: hidden;
   flex-direction: column;
-  padding: 146px 73px 178px;
-  gap: 168px;
+  padding: 146px 73px 221px;
+  gap: 1742px;
   line-height: normal;
   letter-spacing: normal;
+  text-align: left;
+  font-size: 93px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
 }
 @media screen and (max-width: 1350px) {
-  .layout {
+  .ontochoice-parent {
     flex: 1;
   }
-  .layout-parent {
+  .frame-container {
     flex-wrap: wrap;
   }
-  .frame-wrapper {
-    flex: 1;
-  }
-  .frame-group {
-    flex-wrap: wrap;
+  .frame-parent {
+    gap: 160px;
+    padding-bottom: 255px;
+    box-sizing: border-box;
   }
   .macbook-pro-16-1 {
-    gap: 84px;
+    gap: 871px;
     padding-left: var(--padding-17xl);
     padding-right: var(--padding-17xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 1125px) {
-  .layout {
+  .ontochoice-parent {
     min-width: 100%;
   }
   .frame-parent {
-    padding-bottom: 99px;
+    padding-bottom: 166px;
     box-sizing: border-box;
   }
 }
@@ -398,39 +433,39 @@
   .choosing-terms-and-container {
     font-size: 52px;
   }
-  .layout {
+  .ontochoice-parent {
     gap: 35px;
   }
-  .showcase {
+  .image-content-wrapper {
     min-width: 100%;
   }
-  .layout-parent {
+  .frame-container {
     gap: 25px;
   }
   .innovation-thats-consistent {
     font-size: var(--font-size-19xl);
   }
-  .here-is-some-container {
-    font-size: 45px;
+  .here-is-some-container,
+  .here-is-some-container1 {
+    font-size: var(--font-size-26xl);
   }
-  .here-is-some-of-our-work-post-parent {
-    gap: 37px;
+  .frame-parent {
+    gap: 80px;
+  }
+  .poster-from-esip {
+    font-size: var(--font-size-26xl);
   }
   .innovate-with-us {
     font-size: 46px;
   }
-  .start-already {
+  .join-us {
     font-size: var(--font-size-19xl);
   }
-  .frame-container {
-    gap: var(--gap-32xl);
-  }
-  .frame-wrapper,
-  .people-8027909-1-icon {
-    min-width: 100%;
+  .innovate-content {
+    gap: 95px;
   }
   .macbook-pro-16-1 {
-    gap: 42px;
+    gap: 435px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -440,41 +475,46 @@
   .choosing-terms-and-container {
     font-size: 31px;
   }
-  .layout {
+  .ontochoice-parent {
     gap: var(--gap-lg);
   }
   .innovation-thats-consistent {
     font-size: var(--font-size-10xl);
   }
+  .here-is-some-container,
+  .here-is-some-container1 {
+    font-size: var(--font-size-8xl);
+  }
   .frame-parent {
-    padding-bottom: 64px;
+    gap: 40px;
+    padding-bottom: 108px;
     box-sizing: border-box;
   }
-  .here-is-some-container {
-    font-size: 27px;
-  }
-  .here-is-some-of-our-work-post-parent {
-    gap: var(--gap-lg);
+  .poster-from-esip {
+    font-size: var(--font-size-8xl);
   }
   .innovate-with-us {
     font-size: 28px;
   }
-  .start-already {
+  .join-us {
     font-size: var(--font-size-10xl);
   }
-  .annamaria,
-  .aryan-singh-dalal,
+  .annamaria-masci,
+  .github,
+  .john-graybeal,
+  .juliane-m-schneider,
   .ruth-duerr,
+  .slack,
   .team-members {
     font-size: var(--font-size-xl);
   }
-  .connect {
+  .team-container {
     gap: 17px;
   }
-  .frame-container {
-    gap: 26px;
+  .innovate-content {
+    gap: 48px;
   }
   .macbook-pro-16-1 {
-    gap: 21px;
+    gap: 218px;
   }
 }
