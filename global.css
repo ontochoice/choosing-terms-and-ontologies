@@ -6,6 +6,7 @@ body {
 :root {
   /* fonts */
   --font-inter: Inter;
+  --font-itim: Itim;
 
   /* font sizes */
   --font-size-6xl: 25px;
@@ -13,6 +14,9 @@ body {
   --font-size-29xl: 48px;
   --font-size-19xl: 38px;
   --font-size-10xl: 29px;
+  --font-size-71xl: 90px;
+  --font-size-26xl: 45px;
+  --font-size-8xl: 27px;
 
   /* Colors */
   --color-silver: #bfbfbf;
@@ -20,13 +24,14 @@ body {
   --color-white: #fff;
 
   /* Gaps */
-  --gap-32xl: 51px;
+  --gap-7xs: 6px;
   --gap-lg: 18px;
 
   /* Paddings */
   --padding-17xl: 36px;
-  --padding-7xs: 6px;
-  --padding-4xl: 23px;
+  --padding-2xs: 11px;
+  --padding-9xs: 4px;
   --padding-11xs: 2px;
-  --padding-base: 16px;
+  --padding-4xs: 9px;
+  --padding-lgi: 19px;
 }
