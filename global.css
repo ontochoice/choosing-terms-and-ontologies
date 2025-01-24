@@ -35,3 +35,95 @@ body {
   --padding-4xs: 9px;
   --padding-lgi: 19px;
 }
+
+.index {
+  padding: 1.25rem 1.5rem;
+  margin: 2rem auto; /* Center the index section horizontally */
+  max-width: 400px; /* Limit the width to keep it from spanning the full page */
+  text-align: center; /* Center-align the text */
+  color: white; /* Set font color to white */
+}
+
+.index h3 {
+  font-size: 1.5rem; /* Increased font size for prominence */
+  font-weight: bold; /* Made the font bold for emphasis */
+  margin-bottom: 1rem;
+  text-transform: uppercase; /* Optional: Make the text all caps */
+}
+
+.index ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.index li {
+  margin-bottom: 0.75rem;
+}
+
+.index a {
+  color: white; /* Set link color to white */
+  text-decoration: none; /* Remove underline initially */
+  transition: text-decoration 0.2s ease; /* Smooth transition for hover effect */
+}
+
+.index a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.about-us {
+  position: relative; /* Use relative positioning for the container */
+  background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent overlay */
+  color: white; /* Set text color to white */
+  padding: 2rem; /* Add more padding for better readability */
+  border-radius: 8px; /* Add some rounded corners */
+  max-width: 800px; /* Limit the width for better readability */
+  margin: 2rem auto; /* Center the container and add some vertical spacing */
+}
+
+.about-us h1 {
+  font-size: 2.5rem; /* Increase the heading size */
+  font-weight: bold; /* Keep the heading bold */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+  margin-bottom: 1.5rem; /* Increase the spacing below the heading */
+}
+
+.about-us p {
+  font-size: 1.1rem; /* Increase the body text size */
+  line-height: 1.6; /* Increase the line height for better readability */
+  margin-bottom: 1rem; /* Add some spacing between paragraphs */
+}
+.here-is-some-container {
+  font-weight: 600;
+  font-size: 2.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.poster-button-container {
+  display: flex;
+  justify-content: space-between; /* Distribute the buttons to the left and right */
+  align-items: center;
+  margin-top: 1.5rem; /* Add some spacing between the heading and buttons */
+}
+
+.poster-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.poster-button:hover {
+  background-color: #0056b3;
+}
+
+
+
