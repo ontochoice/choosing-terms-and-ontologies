@@ -114,7 +114,8 @@
   height: 206px;
   position: relative;
   font-size: inherit;
-  font-weight: 500;
+  font-weight: 400;
+  margin-bottom: 0.5 rem;
   font-family: inherit;
   display: inline-block;
   flex-shrink: 0;
@@ -380,7 +381,8 @@
 .innovate-content-wrapper {
   width: 607px;
   flex-direction: row;
-  padding: 0 var(--padding-2xs);
+  padding: 0 ;
+  margin: 0;
   max-width: 100%;
 }
 .macbook-pro-16-1 {
@@ -389,8 +391,8 @@
   background-color: #000;
   overflow: hidden;
   flex-direction: column;
-  padding: 146px 73px 221px;
-  gap: 1742px;
+  padding: 146px 73px 50px;
+  gap: 0;
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
@@ -453,7 +455,7 @@
     gap: 80px;
   }
   .poster-from-esip {
-    font-size: var(--font-size-26xl);
+    display:none;
   }
   .innovate-with-us {
     font-size: 46px;
@@ -462,7 +464,7 @@
     font-size: var(--font-size-19xl);
   }
   .innovate-content {
-    gap: 95px;
+    gap: 50px;
   }
   .macbook-pro-16-1 {
     gap: 435px;
@@ -518,3 +520,76 @@
     gap: 218px;
   }
 }
+.work-poster {
+  display: flex; /* Use flexbox to align items */
+  flex-direction: column; /* Stack heading and buttons vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text alignment */
+  width: 100%; /* Ensure it spans the full width */
+  max-width: 100%; /* Remove fixed width */
+  margin: 2rem auto; /* Center the section */
+  padding: 2rem 1rem; /* Add padding around the section */
+}
+
+
+.here-is-some-container {
+  font-size: 2.5rem; /* Make the heading prominent */
+  font-weight: bold;
+  margin-bottom: 2rem; /* Add space below the heading */
+  color: white; /* Ensure the heading text is visible */
+}
+
+.poster-buttons {
+  display: flex; /* Use flexbox to align buttons */
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Align buttons vertically */
+  gap: 1rem; /* Add spacing between buttons */
+  width: 100%; /* Make the container span the full width */
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+  margin-top: 1.5rem; /* Add space between heading and buttons */
+}
+
+
+.poster-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem; /* Add padding inside the buttons */
+  background-color: #007bff; /* Blue button background */
+  color: white; /* White text */
+  text-decoration: none; /* Remove underline from links */
+  border-radius: 8px; /* Add rounded corners */
+  font-weight: bold;
+  font-size: 1rem; /* Adjust font size for readability */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth hover effect */
+}
+
+.poster-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+.poster-button:active {
+  transform: translateY(0); /* Reset transform on click */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Reset shadow */
+}
+
+.image-container {
+  display: flex;
+  justify-content: flex-end; /* Align the image to the right */
+  margin: 2rem 0; /* Add vertical spacing */
+}
+
+.team-illustration {
+  position: absolute;
+  top: 3411px;
+  left: 599px;
+  width: 891px;
+  height: 910px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+
+
