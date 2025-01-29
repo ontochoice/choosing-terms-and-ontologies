@@ -2,7 +2,7 @@
 
 
 
-# 📚 choosing-terms-and-ontologies
+# 📚 Choosing-terms-and-ontologies
 
 Welcome to the **Collaborative Ontology Development Model** repository! 🚀
 
