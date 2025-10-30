@@ -1,3 +1,8 @@
+html {
+  scroll-padding-top: 100px; /* space equal to your navbar height */
+}
+
+
 /* Container layout */
 .container {
   max-width: 1200px;
@@ -61,23 +66,31 @@
   display: block;
   margin-left: 1rem;      /* optional: spacing from edge */
 }
+.quick-links a {
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 
 .quick-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* left & right separation */
-  background-color: white;
-  padding: 10px 60px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
+  background-color: white;
   z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* key: allows wrapping instead of overlap */
+  padding: 0.75rem 3rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap:2rem
 }
 /* group logo + title */
 .brand {
   display: flex;
-  align-items: flex-start; /* aligns logo and stacked text neatly */
-  gap: 8px;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .brand-text {
@@ -262,8 +275,8 @@ section h2 {
 
 .team-list-horizontal {
   display: flex;
-  flex-direction: row;         /* ← key change */
-  flex-wrap: wrap;             /* ← wraps on small screens */
+  flex-direction: row;         /* â† key change */
+  flex-wrap: wrap;             /* â† wraps on small screens */
   justify-content: center;
   gap: 2rem;
 }
@@ -347,9 +360,6 @@ section h2 {
   line-height: 1.4;
 }
 
-html {
-  scroll-padding-top: 100px; /* Adjust based on your sticky nav height */
-}
 
 .about {
   background: #f9f9f9;  /* Light background */
@@ -385,3 +395,25 @@ html {
   text-decoration: underline;
 }
 
+/* Responsive for small screens */
+@media (max-width: 768px) {
+  .quick-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brand {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .site-title {
+    font-size: 1.5rem;
+  }
+
+  .quick-links ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
