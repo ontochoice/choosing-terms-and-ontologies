@@ -55,34 +55,77 @@
   font-weight: 500;
   margin: 2rem 0;
 }
+.quick-links img {
+  height: 45px;           /* smaller size */
+  width: auto;
+  display: block;
+  margin-left: 1rem;      /* optional: spacing from edge */
+}
 
 .quick-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* left & right separation */
+  background-color: white;
+  padding: 10px 60px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
-  background-color: white;
   z-index: 1000;
-  text-align: center;
-  margin: 0;
-  padding: 1rem 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* group logo + title */
+.brand {
+  display: flex;
+  align-items: flex-start; /* aligns logo and stacked text neatly */
+  gap: 8px;
 }
 
+.brand-text {
+  display: flex;
+  flex-direction: column; /* <-- stacks title and tagline vertically */
+  line-height: 1.2;
+}
+
+
+.site-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0066cc;
+  margin-right: 20px; /* controls spacing between title and links */
+}
+/* Center: Navigation Links */
+.nav-center {
+  flex: 1;                 /* takes available space */
+  display: flex;
+  justify-content: center; /* centers links horizontally */
+  margin-left: -250px; /* move links slightly left */
+}
+
+/* Navigation list */
 .quick-links ul {
   list-style: none;
-  padding: 0;
   display: flex;
-  gap: 2rem;
-  justify-content: center;
+  gap: 30px;
+  margin-left: auto; /* pushes links to the right while keeping brand left */
+  margin: 0;
+  padding: 0;
 }
 
-.quick-links a {
+
+
+
+.quick-links ul li a {
   text-decoration: none;
-  color: #0073e6;
+  color: #0066cc;
   font-weight: bold;
-  font-size: 2rem;  /* Large size */
+  font-size: 1.05rem;
+  transition: color 0.3s ease;
 }
 
-
+.quick-links ul li a:hover {
+  color: #004b99;
+  text-decoration: underline;
+}
 /* Section Titles */
 section h2 {
   text-align: center;
